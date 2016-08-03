@@ -1,3 +1,26 @@
+// Directors to include:
+// Steven Spielberg
+// Martin Scorsese
+// Alfred Hitchcock
+// Quentin Tarantino
+// Stanley Kubrick
+// Francis Ford Coppola
+// Christopher Nolan
+// Woody Allen
+// David Fincher (DL)
+// Roman Polanski
+// David Lynch (DF)
+// Paul Thomas Anderson (WA)
+// Wes Anderson (PTA)
+// Sofia Coppola
+// David Cronenberg
+// ingmar bergman
+// charlie kaufman (what was his directoral debew)
+// Richard Linklater
+// spike jonze
+// sean penn
+// Lars von Trier
+
 var question_number = 0;
 var questions=[
 	'Question 1?',
@@ -127,6 +150,7 @@ function endGame(){
 	$('#smaller-text').html('Correct answers: ' + correct
 		+ '<br>Incorrect answers: ' + incorrect
 		+ '<br>Unanswered: ' + unanswered);
+	$('#smaller-text').show();
 	$('#gif').hide();
 	$('#option1').hide();
 	$('#option2').hide();
