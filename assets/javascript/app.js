@@ -96,9 +96,9 @@ function incorrectResponse(){
 	incorrect++;
 
 	if(question_number == questions.length)
-		setTimeout(endGame,5000);
+		setTimeout(endGame,6000);
 	else
-		setTimeout(nextQuestion,5000);
+		setTimeout(nextQuestion,6000);
 }
 function correctResponse(){
 	timer.stop();
@@ -115,9 +115,9 @@ function correctResponse(){
 	correct++;
 
 	if(question_number == questions.length)
-		setTimeout(endGame,5000);
+		setTimeout(endGame,6000);
 	else
-		setTimeout(nextQuestion,5000);
+		setTimeout(nextQuestion,6000);
 }
 function outOfTime(){
 	timer.stop();
@@ -136,9 +136,9 @@ function outOfTime(){
 	unanswered++;
 
 	if(question_number == questions.length)
-		setTimeout(endGame,5000);
+		setTimeout(endGame,6000);
 	else
-		setTimeout(nextQuestion,5000);
+		setTimeout(nextQuestion,6000);
 }
 function endGame(){
 	timer.stop();
