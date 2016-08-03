@@ -143,7 +143,7 @@ function outOfTime(){
 function endGame(){
 	timer.stop();
 
-	$('#larger-text').html('All done, here\'s how you did!');
+	$('#larger-text').html('All done! Here\'s how you did:');
 	$('#smaller-text').html('Correct answers: ' + correct
 		+ '<br>Incorrect answers: ' + incorrect
 		+ '<br>Unanswered: ' + unanswered);
