@@ -21,7 +21,7 @@ var options=[
 	['Both have the same birthday','Both regularly appeared in their own films','Both were inspired by Sofia Coppola','None of the above'],
 	['George Lucas','Martin Scorsese','Michael Bay','Steven Spielberg'],
 	['Brad Pitt','Johnny Depp','Leonardo DiCaprio','Sean Penn'],
-	['Christopher Nolan\'s "Interstellar"','James Cameron\'s "Avatar"','Richard Linklater\'s "Boyhood"','Steve McQueen\'s "12 Years a Slave']
+	['Christopher Nolan\'s "Interstellar"','James Cameron\'s "Avatar"','Richard Linklater\'s "Boyhood"','Steve McQueen\'s "12 Years a Slave"']
 	];
 var correct_answers=[
 	3,
