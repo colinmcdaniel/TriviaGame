@@ -1,42 +1,39 @@
-// Directors to include:
-// Steven Spielberg
-// Martin Scorsese
-// Alfred Hitchcock
-// Quentin Tarantino
-// Stanley Kubrick
-// Francis Ford Coppola
-// Christopher Nolan
-// Woody Allen
-// David Fincher (DL)
-// Roman Polanski
-// David Lynch (DF)
-// Paul Thomas Anderson (WA)
-// Wes Anderson (PTA)
-// Sofia Coppola
-// David Cronenberg
-// ingmar bergman
-// charlie kaufman (what was his directoral debew)
-// Richard Linklater
-// spike jonze
-// sean penn
-// Lars von Trier
-
 var question_number = 0;
 var questions=[
-	'Question 1?',
-	'Question 2?'
+	'(1/10) Which director cast Bill Murray in more than seven films?',
+	'(2/10) Which of these films starring Woody Allen did he NOT direct?',
+	'(3/10) Which director was temporarily banned from the Cannes Film Festival?',
+	'(4/10) Who is known for his surrealist films such as "Blue Velvet" and "Mulholland Drive"?',
+	'(5/10) Which movie did Stanley Kubrick NOT direct?',
+	'(6/10) What movie was Charlie Kaufman\'s directorial debut?',
+	'(7/10) What do Alfred Hitchcock and M. Night Shyamalan have in common?',
+	'(8/10) Who is the richest film director of all time?',
+	'(9/10) Which actor has also directed several critically acclaimed films?',
+	'(10/10) Which movie took 12 years to film?'
 	];
 var options=[
-	['1 Option1','1 Option2','1 Option3','1 Option4'],
-	['2 Option1','2 Option2','2 Option3','2 Option4']
-	];
-var images=[
-	'minions.gif',
-	'giphy.gif'
+	['Francis Ford Coppola','Jim Jarmusch','Paul Thomas Anderson','Wes Anderson'],
+	['Annie Hall','Crimes and Misdemeanors','Manhattan','Play It Again, Sam'],
+	['Lars von Trier','Peter Jackson','Quentin Tarantino','Spike Lee'],
+	['David Fincher','David Lynch','Ingmar Bergman','Roman Polanski'],
+	['2001: A Space Odyssey','A.I. Artificial Intelligence','Eyes Wide Shut','The Shining'],
+	['Adaptation','Being John Malkovich','Eternal Sunshine of the Spotless Mind','Synecdoche, New York'],
+	['Both have the same birthday','Both regularly appeared in their own films','Both were inspired by Sofia Coppola','None of the above'],
+	['George Lucas','Martin Scorsese','Michael Bay','Steven Spielberg'],
+	['Brad Pitt','Johnny Depp','Leonardo DiCaprio','Sean Penn'],
+	['Christopher Nolan\'s "Interstellar"','James Cameron\'s "Avatar"','Richard Linklater\'s "Boyhood"','Steve McQueen\'s "12 Years a Slave']
 	];
 var correct_answers=[
+	3,
+	3,
 	0,
+	1,
+	1,
+	3,
+	1,
 	0,
+	3,
+	2
 	];
 var counter;
 var correct = 0;
