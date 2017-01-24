@@ -1,6 +1,6 @@
 # TriviaGame
 
-* [Deployed Application Link](https://filmtrivia.herokuapp.com/)
+* [Deployed Application](https://filmtrivia.herokuapp.com/)
 * [GitHub Repository](https://github.com/colinmcdaniel/TriviaGame)
 
 ## Functionality
